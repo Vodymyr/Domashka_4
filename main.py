@@ -25,3 +25,4 @@ def generate_students(request):
     Student.objects.bulk_create(students)
     return HttpResponse(f'{count} создано студентів')
 
+print(42)
